@@ -11,51 +11,43 @@
     <!-- Extra theme or icon library internal css-->  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.js"></script>
-
-  <body style="background-color: #2d3c49;">
+  <body>
     <header>
-    <nav style="background-color: #2d3c49; overflow: hidden; padding: 0% 5% 0% 5%; border-bottom: 2px solid #02b3e4;">
+    <nav>
       <img src="images/logo_final.png" alt="">
-      <div class="name" style="float: right;">
+      <div class="name">
         <h2 style="color: #02b3e4">Rahul Kumar Roy</h2>
         <h4 style="color: #02b3e4; float: right;">Front End Ninja</h4>
       </div> 
     </nav>
-
     </header> 
     <div class="conatiner-fluid">
-    <div class="right_section col-sm-2 col-md-2 col-xs-12 " style=" background-color: #02b3e4;">
-      <div class="row" style="background-color: ;">
-        <div style="display: flex; justify-content: center; align-items: center;"><img src="images/rahul.jpeg" alt="profile picture" style="border-radius: 50%; width: 80%; height: auto; margin-top: 10%; margin-bottom: 5%;;"></div>
+    <div class="right_section col-sm-2 col-md-2 col-xs-12">
+      <div class="row">
+        <div id="bio_img"><img src="images/rahul.jpeg" alt="profile picture"></div>
         <p style="text-align: center;">Electrical engineer</p>
         <p style="text-align: center;">Full stack developer</p>
         <p style="text-align: center;">I love to hack into stuff</p>
       </div>
-       
-        <div class="row" style="display: ; align-items: center;">
-          
-          <h3 style="margin: 8%; margin-bottom: 10%; text-align: center;">skills</h3>
-          <div style="display: inline-block;display: flex; justify-content: center; align-items: center;"><i class="fa fa-html5" style="font-size: 80px;color: #2d3c49;"></i></div><br/>
-          <div style="display: inline-block; display: flex; justify-content: center; align-items: center;"><i class="fa fa-css3 " style="font-size: 80px;color: #2d3c49;"></i></div><br/>
-          <div style="display: inline-block;display: flex; justify-content: center; align-items: center;"><i class="fa fa-git " style="font-size: 80px;color: #2d3c49;"></i></div><br/>
-    
-        </div>
-        
-          <div class="row">
-          <h3 style="text-align: center;">Contact</h3>
-          <div class="col-md-offset-5 centered" style="display: inline-block; margin: 0 auto; float: none; display: flex; justify-content: center; align-items: center;">
-          <i class="fa fa-github entered" style="font-size: 30px;color: #2d3c49; margin: 4%; padding: 4%;"></i>
-          <i class="fa fa-linkedin" style="font-size: 30px;color: #2d3c49; margin: 4%; padding: 4%;"></i>
-          <i class="fa fa-envelope" style="font-size: 30px;color: #2d3c49; margin: 4%; padding: 4%;"></i>
+      <div class="row">
+        <h3 style="margin: 8%; margin-bottom: 10%; text-align: center;">skills</h3>
+        <div class="upper_icon"><i class="fa fa-html5"></i></div><br/>
+        <div class="upper_icon"><i class="fa fa-css3"></i></div><br/>
+        <div class="upper_icon"><i class="fa fa-git"></i></div><br/>
+      </div>
+      <div class="row">
+        <h3 style="text-align: center;">Contact</h3>
+          <div class="lower_icon">
+          <a href="https://github.com/oreanroy"><i class="fa fa-github entered"></i></a>
+          <a href="https://www.linkedin.com/in/oreanroy/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://plus.google.com/u/0/105245284892923754613"><i class="fa fa-envelope"></i></a>
           </div>
           </div>
       </div>
-    <div class="main_section col-sm-10 col-md-10 col-xs-12" style="background-color: #2d3c49; ">
-      <div class="banner" style="height: 100%; ">
+    <div class="main_section col-sm-10 col-md-10 col-xs-12">
+      <div class="banner " style="height: 100%; ">
         <div class="typeWriter" style="background-color: #2d3c49;">
-          
           <div class="page-wrapper">
             <div class="terminal-outer">
               <div class="terminal-container">
@@ -77,41 +69,39 @@
               </div>
             </div>
           </div>
- 
         </div>
       <h1 style="color: #02b3e4;">Featured work</h1>
       <div class="conatiner-fluid">
-      <div class="featured-work row">
-        <div class="card col-sm-4" style="overflow: hidden;">
-          <a href="http://jmirobotics.co.in/"><img class="card-img-top img-fluid" style="max-width: 100%; height: auto;" src="images/jamiarobotics.jpeg" alt="Robotics club website"></a>
+      <div class="featured_work row">
+        <div class="card col-sm-6 col-md-4 col-xs-12 ">
+          <a href="http://jmirobotics.co.in/"><img class="card-img-top img-fluid" src="images/jamiarobotics.jpeg" alt="Robotics club website"></a>
           <div class="card-body">
-            <p class="card-text" style="color: #02b3e4;">Website for robotics enthusiasts of jamia.</p>
+            <p class="card-text" style="color: #02b3e4;">Website for robotics enthusiasts of jamia and for robocon.</p>
             <a href="http://jmirobotics.co.in/"><h3 style="color: #02b3e4; font-weight: bold;">Visit</h3></a>
           </div>
         </div>
-        <div class="card col-sm-4" style="overflow: hidden;">
-          <a href="http://udabuddynetwork.herokuapp.com/"><img class="card-img-top img-fluid" style="max-width: 100%; height: auto;" src="images/udabuddy.jpeg" alt="Social interaction app"></a>
+        <div class="card col-sm-6 col-md-4 col-xs-12">
+          <a href="http://udabuddynetwork.herokuapp.com/"><img class="card-img-top img-fluid" src="images/udabuddy.jpeg" alt="Social interaction app"></a>
           <div class="card-body">
             <p class="card-text" style="color: #02b3e4;">Social interaction app developed under under Google front India challenge</p>
             <a href="http://udabuddynetwork.herokuapp.com/"><h3 style="color: #02b3e4; font-weight: bold;">Visit</h3></a>
           </div>
         </div>
-        <div class="card col-sm-4" style="overflow: hidden;">
-          <a href="https://hashes-jmi.github.io/Hashes_2.0/"><img class="card-img-top img-fluid" style="max-width: 100%; height: auto;" src="images/hashes.jpeg" alt="Programming club website"></a>
+        <div class="card col-sm-6 col-md-4 col-xs-12">
+          <a href="https://hashes-jmi.github.io/Hashes_2.0/"><img class="card-img-top img-fluid" src="images/hashes.jpeg" alt="Programming club website"></a>
           <div class="card-body">
             <p class="card-text" style="color: #02b3e4;">The website for official programming club of jamia millia.</p>
-            <a href="https://hashes-jmi.github.io/Hashes_2.0/"><h3 style="font-weight: bold; color: #02b3e4;">Visit</h3></a>
+            <a href="https://hashes-jmi.github.io/Hashes_2.0/"><h3 style="font-weight: bold; color: #02b3e4;">Visit</h3></a> 
           </div>
         </div>
- 
       </div>
       </div>
-      
-     
-    
     </div>
      </div>
-      <footer style="background-color: #02b3e4; width: 100%;  padding-top: 4%; padding-bottom: 5px;" ><h3 style="text-align: center;">Made with</h3></footer>
+      <footer>
+        <h4>Made with ☕ by oreanroy</h4>
+        <h4>copyright &copy orean.inc</h4>
+      </footer>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -120,7 +110,7 @@
     <script type="text/javascript">
     var terminalTyped = new Typed("#terminalType", {
   strings: [
-    '^1000Hi There!<br>`<span class="terminal-user">oreanroy@oreaninc.com: I am Rahul Roy. </span>`^1000 welocome to my site.^1500 <br>`I love to code. <br>`I am available for freelance webdevlopment Work`<br>Contact me at oreanroy@gmail.com<br></span>`^2000 Find me on the web @oreanroy`<br><span class="terminal-user">oreanroy@oreaninc.com: `I am interested in  Machine Learning and cybersequrity`<br></span>``<span class="terminal-user">oreanroy@oreaninc.com: `Hope you enjoy it here!!!`</span>`^2000<br>`oreanroy@oreaninc.com:~$`^1000 clear'
+    '^1000Hi There!<br>`<span class="terminal-user">oreanroy@oreaninc.com: I am Rahul Roy. </span>`^1000 welcome to my site.^1500 <br>`I love to code. <br>`I am available for freelance webdevlopment Work`<br>Contact me at oreanroy@gmail.com<br></span>`^2000 Find me on the web @oreanroy`<br><span class="terminal-user">oreanroy@oreaninc.com: `I am interested in  Machine Learning and cybersequrity`<br></span>``<span class="terminal-user">oreanroy@oreaninc.com: `Hope you enjoy it here!!!`</span>`^2000<br>`oreanroy@oreaninc.com:~$`^1000 clear'
   ],
   typeSpeed: 40,
   backspeed: 0,

@@ -1,3 +1,106 @@
+/* responsive section*/
+
+@media screen and (max-width: 700px){
+  .page-wrapper {
+    width: 90vw !important;
+    height: 70vh !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .terminal-outer {
+    font-size: 13px !important;
+  }
+  .name{
+    float: none !important; 
+  }
+  nav div.name h2, h4 {
+    float: none !important;
+    text-align: center !important;
+  }
+  nav img {
+   display: inline-block !important; 
+   margin: 0 auto !important; 
+   float: none !important; 
+   display: flex !important; 
+   justify-content: center !important; 
+   align-items: center !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+
+}
+
+/*body section */
+
+body {
+  background-color: #2d3c49;
+}
+p{
+  font-size: 18px;
+}
+/*nav section */
+
+nav {
+  background-color: #2d3c49; 
+  overflow: hidden; 
+  padding: 0% 5% 0% 5%; 
+  border-bottom: 2px solid #02b3e4;
+}
+.name {
+  float: right;
+}
+
+/* right section */
+
+.right_section {
+  background-color: #02b3e4;
+}
+#bio_img {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+#bio_img img {
+  border-radius: 50%; 
+  width: 80%; 
+  height: auto; 
+  margin-top: 10%; 
+  margin-bottom: 5%;
+}
+.upper_icon {
+  display: inline-block;display: 
+  flex; justify-content: center; 
+  align-items: center;
+}
+.upper_icon{
+  font-size: 80px;
+  color: #2d3c49;
+}
+.lower_icon {
+ display: inline-block; 
+ margin: 0 auto; 
+ float: none; 
+ display: flex; 
+ justify-content: center; 
+ align-items: center;
+}
+div.lower_icon a i {
+  font-size: 30px; 
+  color: #2d3c49; 
+}
+div.lower_icon a {
+   margin: 4%; 
+   padding: 4%;
+}
+
+/* main or left section */
+
+.main_section {
+  background-color: #2d3c49;
+}
+
+/* the terminal section */
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 .page-wrapper {
   padding: 0px;
@@ -9,6 +112,7 @@
   margin-top: 2%;
   margin-bottom: 0px;
 }
+
 /* end ./page-wrapper */
 .elem {
   height: 15px;
@@ -40,13 +144,15 @@
 .terminal-section {
   position: relative;
   display: block;
+  height: 100%;
+  padding: 0px;
 }
 .terminal-outer {
   display: block;
   border-radius: 4px;
   overflow: hidden;
   position: relative;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   font-family: 'Inconsolata', monospace;
   color: #2d3c49;
@@ -74,4 +180,27 @@
 }
 .terminal-outer .terminal-container .terminal-body .terminal-body-inner .terminal-user {
   margin-right: 10px;
+}
+
+/* featured work section*/
+.featured_work {
+  padding: 2%;
+}
+.card {
+  overflow: hidden;
+}
+div.card a img {
+  max-width: 100%; 
+  height: auto;
+}
+/* footer section */
+footer {
+  background-color: #02b3e4; 
+  width: 100%;  
+  padding-top: 4%; 
+  padding-bottom: 5px;
+}
+footer h4{
+  text-align: center;
+  color: #2d3c49;
 }
