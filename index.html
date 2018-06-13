@@ -12,17 +12,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.js"></script>
+  </head>
   <body>
     <header>
-    <nav>
-      <img src="images/logo_final.png" alt="">
-      <div class="name">
-        <h2 style="color: #02b3e4">Rahul Kumar Roy</h2>
-        <h4 style="color: #02b3e4; float: right;">Front End Ninja</h4>
-      </div> 
-    </nav>
+      <nav>
+        <img src="images/logo_final.png" alt="">
+        <div class="name">
+          <h2 style="color: #02b3e4">Rahul Kumar Roy</h2>
+          <h4 style="color: #02b3e4; float: right;">Front End Ninja</h4>
+        </div> 
+      </nav>
     </header> 
     <div class="conatiner-fluid">
+    <!-- smaller section -->
     <div class="right_section col-sm-2 col-md-2 col-xs-12">
       <div class="row">
         <div id="bio_img"><img src="images/rahul.jpeg" alt="profile picture"></div>
@@ -38,13 +40,14 @@
       </div>
       <div class="row">
         <h3 style="text-align: center;">Contact</h3>
-          <div class="lower_icon">
+        <div class="lower_icon">
           <a href="https://github.com/oreanroy"><i class="fa fa-github entered"></i></a>
           <a href="https://www.linkedin.com/in/oreanroy/"><i class="fa fa-linkedin"></i></a>
           <a href="https://plus.google.com/u/0/105245284892923754613"><i class="fa fa-envelope"></i></a>
-          </div>
-          </div>
+        </div>
       </div>
+    </div>
+    <!-- main section -->
     <div class="main_section col-sm-10 col-md-10 col-xs-12">
       <div class="banner " style="height: 100%; ">
         <div class="typeWriter" style="background-color: #2d3c49;">
@@ -72,29 +75,29 @@
         </div>
       <h1 style="color: #02b3e4;">Featured work</h1>
       <div class="conatiner-fluid">
-      <div class="featured_work row">
-        <div class="card col-sm-6 col-md-4 col-xs-12 ">
-          <a href="http://jmirobotics.co.in/"><img class="card-img-top img-fluid" src="images/jamiarobotics.jpeg" alt="Robotics club website"></a>
-          <div class="card-body">
-            <p class="card-text" style="color: #02b3e4;">Website for robotics enthusiasts of jamia and for robocon.</p>
-            <a href="http://jmirobotics.co.in/"><h3 style="color: #02b3e4; font-weight: bold;">Visit</h3></a>
+        <div class="featured_work row">
+          <div class="card col-sm-6 col-md-4 col-xs-12 ">
+            <a href="http://jmirobotics.co.in/"><img class="card-img-top img-fluid" src="images/jamiarobotics.jpeg" alt="Robotics club website"></a>
+            <div class="card-body">
+              <p class="card-text" style="color: #02b3e4;">Website for robotics enthusiasts of jamia and for robocon.</p>
+              <a href="http://jmirobotics.co.in/"><h3 style="color: #02b3e4; font-weight: bold;">Visit</h3></a>
+            </div>
+          </div>
+          <div class="card col-sm-6 col-md-4 col-xs-12">
+            <a href="http://udabuddynetwork.herokuapp.com/"><img class="card-img-top img-fluid" src="images/udabuddy.jpeg" alt="Social interaction app"></a>
+            <div class="card-body">
+              <p class="card-text" style="color: #02b3e4;">Social interaction app developed under under Google front India challenge</p>
+              <a href="http://udabuddynetwork.herokuapp.com/"><h3 style="color: #02b3e4; font-weight: bold;">Visit</h3></a>
+            </div>
+          </div>
+          <div class="card col-sm-6 col-md-4 col-xs-12">
+            <a href="https://hashes-jmi.github.io/Hashes_2.0/"><img class="card-img-top img-fluid" src="images/hashes.jpeg" alt="Programming club website"></a>
+            <div class="card-body">
+              <p class="card-text" style="color: #02b3e4;">The website for official programming club of jamia millia.</p>
+              <a href="https://hashes-jmi.github.io/Hashes_2.0/"><h3 style="font-weight: bold; color: #02b3e4;">Visit</h3></a> 
+            </div>
           </div>
         </div>
-        <div class="card col-sm-6 col-md-4 col-xs-12">
-          <a href="http://udabuddynetwork.herokuapp.com/"><img class="card-img-top img-fluid" src="images/udabuddy.jpeg" alt="Social interaction app"></a>
-          <div class="card-body">
-            <p class="card-text" style="color: #02b3e4;">Social interaction app developed under under Google front India challenge</p>
-            <a href="http://udabuddynetwork.herokuapp.com/"><h3 style="color: #02b3e4; font-weight: bold;">Visit</h3></a>
-          </div>
-        </div>
-        <div class="card col-sm-6 col-md-4 col-xs-12">
-          <a href="https://hashes-jmi.github.io/Hashes_2.0/"><img class="card-img-top img-fluid" src="images/hashes.jpeg" alt="Programming club website"></a>
-          <div class="card-body">
-            <p class="card-text" style="color: #02b3e4;">The website for official programming club of jamia millia.</p>
-            <a href="https://hashes-jmi.github.io/Hashes_2.0/"><h3 style="font-weight: bold; color: #02b3e4;">Visit</h3></a> 
-          </div>
-        </div>
-      </div>
       </div>
     </div>
      </div>
@@ -118,11 +121,10 @@
   loop: false,
   onComplete: function(self) {
     setTimeout(function() {
-      self.reset();
-    }, 3500);
-  }
-});
-
+         self.reset();
+       }, 3500);
+     }
+  });
     </script>
   </body>
 </html>
