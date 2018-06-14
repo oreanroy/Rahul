@@ -50,6 +50,15 @@ nav {
 .name {
   float: right;
 }
+div.name h2 {
+  color: #02b3e4;
+  
+}
+div.name h4{
+  float: right;
+  color: #02b3e4;
+}
+
 
 /* right section */
 
@@ -93,13 +102,37 @@ div.lower_icon a {
    margin: 4%; 
    padding: 4%;
 }
-
+div.right_section div.row p{
+  text-align: center;
+  color: #2d3c49;
+}
+div.right_section div.row h3{
+  text-align: center;
+  color: #2d3c49;
+  margin: 8%; 
+  margin-bottom: 10%;
+}
 /* main or left section */
 
 .main_section {
   background-color: #2d3c49;
 }
-
+.banner {
+  height: 100%; 
+}
+.typewriter {
+  background-color: #2d3c49;
+}
+div.banner h1{
+  color: #02b3e4;
+}
+div.card-body p.card-text{
+  color: #02b3e4;
+}
+div.card-body a h3{
+  color: #02b3e4; 
+  font-weight: bold;
+}
 /* the terminal section */
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 .page-wrapper {
