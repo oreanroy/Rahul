@@ -1,17 +1,14 @@
-/* responsive section*/
-
-
 /*body section */
 
 body {
   background-color: #fff;
-  text-align: center; 
+  text-align: center;
 }
-p{
+p {
   font-size: 19px;
 }
 
-#hello {
+#hello_text {
   margin-top: 10%;
 }
 
@@ -28,71 +25,67 @@ p{
   margin-bottom: 10%;
 }
 
-#timeline{
+#timeline {
   margin-left: 6%;
 }
 
-
-.sub_text{
+.sub_text {
   font-size: 15px;
 }
 
-.date_card{
+.date_card {
   color: #708090;
 }
 
-@media screen and (min-width: 700px){
+/* responsive section*/
 
-  .date_card{
+@media screen and (min-width: 700px) {
+  .date_card {
     float: left;
     margin: 2%;
     margin-right: 8%;
   }
-
 }
 
-@media screen and (max-width: 700px){
-
-  #hello {
-    margin-top: 14%;
+@media screen and (max-width: 700px) {
+  #hello_text {
+    margin-top: 20%;
   }
-  
+
   #main_para {
-    margin-top: 8%;
-  }  
+    margin-top: 10%;
+  }
 
   #info_para {
-    margin-top: 6%;
-  }
-  
-  #final_words {
-    margin-top: 6%;
-    margin-bottom: 10%;
+    margin-top: 10%;
   }
 
-  p{
+  #final_words {
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  p {
     font-size: 16px;
   }
 
-  .sub_text{
+  .sub_text {
     font-size: 13px;
   }
 
-  .date_value{
+  .date_value {
     float: left;
     margin-top: 2%;
   }
 
-  .sub_text{
+  .sub_text {
     float: right;
   }
 
-  .date_card{
+  .date_card {
     margin: 2%;
     margin-bottom: 8%;
     height: 80px;
     width: 80%;
   }
 }
-
-
